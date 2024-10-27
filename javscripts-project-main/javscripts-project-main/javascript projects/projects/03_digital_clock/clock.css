@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: url(img4.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+}
+.button1{
+    background: transparent;
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 900;
+    border-right: 1px solid #333333;
+    border-bottom: 1px solid #333333;
+    border-left: 1px solid #CCCCCC;
+    backdrop-filter: blur(20px);
+}
+.parent{
+    background: transparent;
+    display: grid;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    align-items: center;
+}
+#clock{
+    
+    background: transparent;
+    height: 60px;
+    width:  300px;
+    border-radius: 10px;
+    backdrop-filter: blur(20px);
+}
+#banner{
+    justify-content: center;
+    display: flex;
+    font-size: 30px;
+    color: #000000;
+    font-weight: 900;
+}

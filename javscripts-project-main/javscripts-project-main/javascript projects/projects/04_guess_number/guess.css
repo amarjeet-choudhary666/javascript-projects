@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: poppins, sans-serif;
+}
+#wrapper{
+    height: 100vh;
+    width: 100%;
+    background: rgb(172, 169, 169);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.guessSubmit{
+    border-radius: 10px;
+    color: white;
+    background: black;
+    border: none;
+}
+.guessSubmit:hover{
+    cursor: pointer;
+    background: rgb(117, 65, 117);
+    color: white;
+}
+a{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    background: purple;
+    color: white;
+    height: 50px;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: poppins, sans-serif;
+}
+a:hover{
+    background: white;
+    color: purple;
+    font-size: 30px;
+}
+.container{
+    height: 71%;
+    background: white;
+    margin: 100px;
+    border-radius: 20px;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    font-size: 2.5rem;
+    background: black;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+p{
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+}
+form{
+    display: grid;
+    justify-content: center;
+    transform: translateY(40px);
+}
+.guessFeild{
+    height: 30px;
+    width: 350px;
+    border-radius: 10px;
+    margin: 10px;
+}
+#subt{
+    height: 30px;
+    width: 100px;
+    transform: translateX(130px);
+}
+label{
+    font-size: 2rem;
+    transform: translateX(80px);
+    font-weight: 600;
+}
+.resultsParas{
+transform: translateY(100px);
+font-weight: 700;
+}
+
+.lowOrHi{
+    
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    font-size: 10px;
+    background: black;
+    color: white;
+}
+.startover{
+    color: rgb(255, 255, 255);
+    background: rgb(0, 0, 0);
+    border-radius: 10px;
+    border: none;
+    justify-content: center;
+    display: flex;
+    transform: translateX(200px);
+    margin: 10px;
+    height: 30px;
+    align-items: center;
+}
+.startover:hover{
+    background: purple;
+}
+

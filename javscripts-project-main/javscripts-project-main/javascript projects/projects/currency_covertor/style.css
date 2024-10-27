@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Poppins:wght@100;300;400;500;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppins, sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+}
+
+.container{
+    width: 370px;
+    background: white;
+    padding: 30px;
+    border-radius: 30px;
+}
+header{
+    font-size: 30px;
+    font-weight: 600;
+    justify-content: center;
+}
+form:where(input, selection, button){
+    width: 100%;
+    outline: none;
+    border: none;
+}
+.amount, 
+.input{
+    display: flex;
+    justify-content: center;
+}
+input{
+    width: 100%;
+    padding: 10px;
+    outline: none;
+}
+.drop-list .select-box{
+    display: flex;
+    height: 45px;
+    width: 115px;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+}
+.exhange-rate{
+    display: flex;
+    justify-content: center;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+}
+i{
+    transform: translate3d(-7px, 46px, 10px);
+}
+.exhange-rate{
+    margin-top: 13px;
+}
+button{
+    margin-top: 10px;
+    padding: 7px;
+    background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+    color: white;
+    border: none;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.amount{
+    margin-top: 40px;
+}
+.drop-list{
+    margin-top: 8px;
+}

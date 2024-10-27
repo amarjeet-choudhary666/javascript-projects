@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+text-align: center;
+    background: url(images/img.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 637px;
+    max-width: 100vh;
+    margin: 3rem auto;
+    overflow: hidden;
+}
+.COUNTDOWN {
+    font-size: 2rem;
+    font-weight: 700;
+    padding: 2rem;
+    background: transparent;
+    border-radius: 10px;
+    box-shadow: rgba(rgb(214, 100, 100), rgb(150, 223, 150), rgb(45, 45, 80));
+    text-align: center;
+    backdrop-filter: blur(30px);
+    box-shadow: 0px 0px 30px rgba(227, 228, 237, 0.37);
+    border: 2px solid rgba(255, 255, 255, 0.18);
+}
+.COUNTDOWN div{
+    display: inline-block;
+    margin: 0.5rem;
+}
+.COUNTDOWN div span{
+    color: purple;
+}

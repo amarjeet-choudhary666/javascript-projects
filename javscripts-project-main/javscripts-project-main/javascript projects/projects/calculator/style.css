@@ -1,0 +1,44 @@
+.inputbtn{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.container{
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.calculator{
+    background: rgb(31, 31, 31);
+    margin-top: 20px;
+    padding: 20px 29px 50px;
+    border-radius: 30px;
+    height: 700px;
+    width: 490px;
+}
+.display{
+    height: 100px;
+    background: grey;
+    border: none;
+    border-radius: 70px;
+    color: white;
+    font-size: 5rem;
+    padding: 10px;
+}
+input{
+    height: 100px;
+    width: 100%;
+}
+button{
+    margin-top: 20px;
+    height: 100px;
+    width: 100px;
+    border: none;
+    border-radius: 50px;
+    background-color: grey;
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+    cursor: pointer;
+}
